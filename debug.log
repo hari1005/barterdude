@@ -1,0 +1,12 @@
+[1010/195456.358:ERROR:settings.cc(430)] Settings version is not 5
+[1010/200456.467:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1010/202910.820:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1010/202910.867:ERROR:exception_snapshot_win.cc(100)] thread ID 26504 not found in process
+[1013/200651.858:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1017/195950.311:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\grk21\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\e020fb97-bcdd-4741-b5cc-d91e4d3b5cb9: The system cannot find the path specified. (0x3)
+[1017/195950.327:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1017/202456.421:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1017/202456.483:ERROR:exception_snapshot_win.cc(100)] thread ID 6076 not found in process
+[1020/203255.302:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\grk21\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\c17e8ee0-5eba-42b2-9ada-8881054aa1b0: The system cannot find the path specified. (0x3)
+[1020/203255.354:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1024/192033.349:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

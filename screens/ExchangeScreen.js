@@ -4,8 +4,13 @@ import { StyleSheet, Text, View,TextInput,Alert } from 'react-native';
 import ScanScreen from "./screens/ScanScreen"
 import {createAppContainer,createSwitchNavigator} from "react-navigation"
 import { Button } from 'react-native';
+import {createStackNavigator} from 'react-navigation-stack'
 
 import db from '../config'
+
+function createUniqueId(){
+    this.state.itemname=random(0,99999)
+}
 
 function additem(){
    db.collection('item').add({
@@ -25,6 +30,7 @@ export default class ExchangeScreen extends React.Component{
                 <TextInput onChangeText={text=>{this.setState(itemname=text)}}/>
                 <TextInput multiline={true} onChangeText={text=>{this.setState(description=text)}}/>
                 <Button title='additem' onPress={{additem}}/>
+                <Button title='change name' onPress={{createUniqueId}}/>
             </View>
         )
     }
